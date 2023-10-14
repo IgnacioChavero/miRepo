@@ -1,0 +1,80 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo blanco */
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
+    color: #000; /* Letras en negro */
+}
+
+/* Estilos de contenedores */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de encabezado */
+header {
+    background-color: #00cba9; /* Fondo turquesa */
+    color: #fff; /* Letras blancas */
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header a {
+    color: #fff; /* Letras blancas */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Estilos de sección */
+section.container {
+    background-color: #f0f0f0; /* Fondo gris claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-top: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #00cba9; /* Titulos en turquesa */
+}
+
+section ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+section h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #00cba9; /* Subtitulos en turquesa */
+}
+
+/* Estilos del mapa */
+iframe {
+    border: none;
+    margin-top: 20px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #00cba9; /* Fondo turquesa */
+    color: #fff; /* Letras blancas */
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
